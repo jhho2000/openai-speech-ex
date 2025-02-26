@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>텍스트 음성 재생기</title>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 50px;">
+        <h1>텍스트 음성 재생기</h1>
+        <textarea id="text-input" rows="10" cols="50" placeholder="여기에 텍스트를 입력하세요"></textarea><br><br>
+        <select id="voice-select">
+            <option value="alloy">Alloy</option>
+            <option value="echo">Echo</option>
+            <option value="fable">Fable</option>
+            <option value="onyx">Onyx</option>
+            <option value="nova">Nova</option>
+            <option value="shimmer">Shimmer</option>
+        </select><br><br>
+
+        <button onclick="playText()">재생</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
